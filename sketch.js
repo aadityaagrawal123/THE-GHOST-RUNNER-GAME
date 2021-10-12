@@ -34,9 +34,9 @@ function setup() {
     restart.addImage(restartImg);
     restart.scale = 0.5;
 
-    invisibleEdge = createSprite(windowWidth-360, windowHeight-330, 10, 10000);
-   invisibleEdge.visible = false;
-    invisibleEdge2 = createSprite(windowWidth-1162, windowHeight-330, 10, 10000);
+    invisibleEdge = createSprite(windowWidth/1.31, windowHeight-330, 10, 10000);
+    invisibleEdge.visible = false;
+    invisibleEdge2 = createSprite(windowWidth/4, windowHeight-330, 10, 10000);
     invisibleEdge2.visible = false;
 
   spookySound.loop();
